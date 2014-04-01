@@ -50,7 +50,7 @@ namespace StringHashMap
   
             foreach(var item in list)
             {
-               if (item.Key == key)
+               if (item.Key.Equals(key))
                {
                    return item.Value;
                }
